@@ -2,12 +2,16 @@
 ## Challenges
 | Challenge | Category | Description | 
 | --- | :---: | --- |
-| FileStorage | Pwn | FSOP |
-| Format | Pwn | full protection fmtstr, overwrite __malloc_hook to one_gadget |
-| Bad Grades | Pwn | index overflow and double formatting | 
-| racecar | Pwn | format string leak | 
-| Restaurant | Pwn | ret2libc | 
-| Toxin | Pwn | UAF tcache poisoning | 
+| sick ROP | pwn | SROP |
+| Hunting | pwn | egghunting to locate the flag on a random memory address |
+| FileStorage | pwn | FSOP |
+| Format | pwn | full protection fmtstr, overwrite __malloc_hook to one_gadget |
+| Bad Grades | pwn | index overflow and (double) formatting | 
+| racecar | pwn | format string leak | 
+| Restaurant | pwn | ret2libc | 
+| Toxin | pwn | UAF tcache poisoning | 
+| You know 0xDiablos | pwn | ret2win with params |
+| What does the f say | pwn | PIE + canary ret2libc  |
 
 ## Machines
 | Machine | Category | Description | 
