@@ -16,7 +16,7 @@
 | What does the f say | pwn | PIE + canary ret2libc  |
 
 ## Machines
-| Machine | OS | Difficulty | 
-| --- | :---: | --- |
-| Keeper | Linux | Easy |
-| CozyHosting | Linux | Easy |
+| Machine | OS | Difficulty | user | root |
+| --- | :---: | --- | :--: | :--: | 
+| Keeper | Linux | Easy | ✅ | | ❌ | 
+| CozyHosting | Linux | Easy | ✅ | ✅ |
