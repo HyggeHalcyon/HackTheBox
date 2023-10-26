@@ -1,0 +1,21 @@
+# Nmap 7.93 scan initiated Thu Oct 26 09:43:19 2023 as: nmap -sC -sV -oA nmap/cozyhosting 10.10.11.230
+Nmap scan report for 10.10.11.230
+Host is up (0.039s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            OpenSSH 8.9p1 Ubuntu 3ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 4356bca7f2ec46ddc10f83304c2caaa8 (ECDSA)
+|_  256 6f7a6c3fa68de27595d47b71ac4f7e42 (ED25519)
+80/tcp   open  http           nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://cozyhosting.htb
+1234/tcp open  http           SimpleHTTPServer 0.6 (Python 3.10.12)
+|_http-server-header: SimpleHTTP/0.6 Python/3.10.12
+|_http-title: Directory listing for /
+6789/tcp open  ibm-db2-admin?
+9000/tcp open  cslistener?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 26 09:44:51 2023 -- 1 IP address (1 host up) scanned in 91.88 seconds

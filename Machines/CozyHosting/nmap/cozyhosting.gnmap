@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Thu Oct 26 09:43:19 2023 as: nmap -sC -sV -oA nmap/cozyhosting 10.10.11.230
+Host: 10.10.11.230 ()	Status: Up
+Host: 10.10.11.230 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/, 1234/open/tcp//http//SimpleHTTPServer 0.6 (Python 3.10.12)/, 6789/open/tcp//ibm-db2-admin?///, 9000/open/tcp//cslistener?///	Ignored State: closed (995)
+# Nmap done at Thu Oct 26 09:44:51 2023 -- 1 IP address (1 host up) scanned in 91.88 seconds

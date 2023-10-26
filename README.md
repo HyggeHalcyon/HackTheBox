@@ -2,6 +2,8 @@
 ## Challenges
 | Challenge | Category | Description | 
 | --- | :---: | --- |
+| Bon-nie-appetit | pwn | off-by-one -> corrupt chunk size -> create overlapping chunk (unsolved) |
+| Kernel Adventures: Part 1 | pwn | Double fetch race condition vulnerability |
 | sick ROP | pwn | SROP |
 | Hunting | pwn | egghunting to locate the flag on a random memory address |
 | FileStorage | pwn | FSOP |
@@ -14,8 +16,7 @@
 | What does the f say | pwn | PIE + canary ret2libc  |
 
 ## Machines
-| Machine | Category | Description | 
+| Machine | OS | Difficulty | 
 | --- | :---: | --- |
-| Forgot | Medium | unsolved |
-| Stocker | easy | not sure how to fill this yet |
-| Mirai | easy | default credentials | 
+| Keeper | Linux | Easy |
+| CozyHosting | Linux | Easy |
