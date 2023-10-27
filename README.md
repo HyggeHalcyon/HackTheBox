@@ -18,5 +18,6 @@
 ## Machines
 | Machine | OS | Difficulty | user | root |
 | --- | :---: | --- | :--: | :--: | 
+| Analytics | Linux | Easy | ✅ | ✅ | 
 | Keeper | Linux | Easy | ✅ | | ❌ | 
 | CozyHosting | Linux | Easy | ✅ | ✅ |

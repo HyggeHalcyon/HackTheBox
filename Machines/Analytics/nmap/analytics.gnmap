@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Thu Oct 26 23:37:43 2023 as: nmap -sC -sV -oA nmap/analytics 10.10.11.233
+Host: 10.10.11.233 (analytical.htb)	Status: Up
+Host: 10.10.11.233 (analytical.htb)	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/	Ignored State: closed (998)
+# Nmap done at Thu Oct 26 23:37:51 2023 -- 1 IP address (1 host up) scanned in 8.89 seconds
