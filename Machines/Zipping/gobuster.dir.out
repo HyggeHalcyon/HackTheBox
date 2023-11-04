@@ -1,0 +1,4 @@
+/uploads              (Status: 301) [Size: 314] [--> http://10.10.11.229/uploads/]
+/shop                 (Status: 301) [Size: 311] [--> http://10.10.11.229/shop/]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.11.229/assets/]
+/server-status        (Status: 403) [Size: 277]
