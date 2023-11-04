@@ -1,23 +1,27 @@
 # HackTheBox
-## Challenges
-| Challenge | Category | Description | 
-| --- | :---: | --- |
-| Bon-nie-appetit | pwn | off-by-one -> corrupt chunk size -> create overlapping chunk (unsolved) |
-| Kernel Adventures: Part 1 | pwn | Double fetch race condition vulnerability |
-| sick ROP | pwn | SROP |
-| Hunting | pwn | egghunting to locate the flag on a random memory address |
-| FileStorage | pwn | FSOP |
-| Format | pwn | full protection fmtstr, overwrite __malloc_hook to one_gadget |
-| Bad Grades | pwn | index overflow and (double) formatting | 
-| racecar | pwn | format string leak | 
-| Restaurant | pwn | ret2libc | 
-| Toxin | pwn | UAF tcache poisoning | 
-| You know 0xDiablos | pwn | ret2win with params |
-| What does the f say | pwn | PIE + canary ret2libc  |
 
 ## Machines
 | Machine | OS | Difficulty | user | root |
 | --- | :---: | --- | :--: | :--: | 
+| Zipping | Linux | Medium |  |  | 
+| Topology | Linux | Easy | ✅ | ✅ | 
 | Analytics | Linux | Easy | ✅ | ✅ | 
 | Keeper | Linux | Easy | ✅ | | ❌ | 
 | CozyHosting | Linux | Easy | ✅ | ✅ |
+
+## Challenges
+### Pwn
+| Challenge | Description | 
+| --- | --- |
+| Bon-nie-appetit | off-by-one -> corrupt chunk size -> create overlapping chunk (unsolved) |
+| Kernel Adventures: Part 1 | Double fetch race condition vulnerability |
+| sick ROP | SROP |
+| Hunting | egghunting to locate the flag on a random memory address |
+| FileStorage | FSOP |
+| Format | full protection fmtstr, overwrite __malloc_hook to one_gadget |
+| Bad Grades | index overflow and (double) formatting | 
+| racecar | format string leak | 
+| Restaurant | ret2libc | 
+| Toxin | UAF tcache poisoning | 
+| You know 0xDiablos | ret2win with params |
+| What does the f say | PIE + canary ret2libc  |
