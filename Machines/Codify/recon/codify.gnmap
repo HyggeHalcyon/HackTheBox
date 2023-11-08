@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Wed Nov  8 05:21:58 2023 as: nmap -sV -sC -oA recon/codify 10.10.11.239
+Host: 10.10.11.239 ()	Status: Up
+Host: 10.10.11.239 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52/, 1111/open/tcp//lmsocialserver?///, 3000/open/tcp//http//Node.js Express framework/	Ignored State: closed (996)
+# Nmap done at Wed Nov  8 05:23:36 2023 -- 1 IP address (1 host up) scanned in 98.18 seconds

@@ -3,7 +3,9 @@
 ## Machines
 | Machine | OS | Difficulty | user | root |
 | --- | :---: | --- | :--: | :--: | 
-| Zipping | Linux | Medium |  |  | 
+| Sandworm | Linux | Medium |  |  | 
+| Codify | Linux | Easy | ✅ | ✅ | 
+| Zipping | Linux | Medium | ✅ | ✅ | 
 | Topology | Linux | Easy | ✅ | ✅ | 
 | Analytics | Linux | Easy | ✅ | ✅ | 
 | Keeper | Linux | Easy | ✅ | | ❌ | 
