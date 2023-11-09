@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Thu Nov  9 07:42:35 2023 as: nmap -sV -sC -oA recon/clicker 10.10.11.232
+Host: 10.10.11.232 ()	Status: Up
+Host: 10.10.11.232 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 2049/open/tcp//nfs_acl//3 (RPC #100227)/	Ignored State: closed (996)
+# Nmap done at Thu Nov  9 07:42:43 2023 -- 1 IP address (1 host up) scanned in 8.66 seconds

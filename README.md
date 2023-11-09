@@ -4,6 +4,7 @@
 | Machine | OS | Difficulty | user | root |
 | --- | :---: | --- | :--: | :--: | 
 | Sandworm | Linux | Medium |  |  | 
+| Clicker | Linux | Medium | ✅ | ✅  | 
 | Codify | Linux | Easy | ✅ | ✅ | 
 | Zipping | Linux | Medium | ✅ | ✅ | 
 | Topology | Linux | Easy | ✅ | ✅ | 
