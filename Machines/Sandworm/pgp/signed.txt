@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+message
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v1.0.1
+Comment: http://openpgpjs.org
+
+wsBcBAEBCAAQBQJlThQfCRBV1DewpSr3bQAARwQIAIXcvA+ydgQ5A9LmVN+0
+GCVQEcIIo0CExOHoLSNgfQaW3EwyBjj8dRBQr/cIWXEwM8qWb9tyzMmF3UFs
+41ET6umnZ+dJjZM8C37Ejb/8sy1sUQVTPmELm+d4w8MjHPnNkpYVreVOvOuI
+nkAYriRQdQ6b9s8qyhbU+9hChKeC7Fmoa3sPRzGjNADGon4eflrRS83sZgkd
+kWhXFcz1J8VMORT5M1/mtl/DZjKEwZYQQDWqbYBhGxSGLCcrR2dfxOBL+ym5
+PndRXVTyyjcKD6GJdC7pL6HTTUQ0iqirE3FcEKWa5/H1ymo69lOuL3Gx/FFe
+aN6teRi5aOarLyfSi/ganNQ=
+=nNVx
+-----END PGP SIGNATURE-----

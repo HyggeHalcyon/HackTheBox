@@ -3,7 +3,7 @@
 ## Machines
 | Machine | OS | Difficulty | user | root |
 | --- | :---: | --- | :--: | :--: | 
-| Sandworm | Linux | Medium |  |  | 
+| Sandworm | Linux | Medium | ✅ | ✅ | 
 | Clicker | Linux | Medium | ✅ | ✅  | 
 | Codify | Linux | Easy | ✅ | ✅ | 
 | Zipping | Linux | Medium | ✅ | ✅ | 

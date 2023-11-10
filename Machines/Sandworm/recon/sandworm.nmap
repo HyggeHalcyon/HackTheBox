@@ -1,0 +1,22 @@
+# Nmap 7.93 scan initiated Wed Nov  8 04:25:44 2023 as: nmap -sC -sV -oA recon/sandworm 10.10.11.218
+Nmap scan report for 10.10.11.218
+Host is up (0.047s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 b7896c0b20ed49b2c1867c2992741c1f (ECDSA)
+|_  256 18cd9d08a621a8b8b6f79f8d405154fb (ED25519)
+80/tcp  open  http     nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to https://ssa.htb/
+443/tcp open  ssl/http nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+| ssl-cert: Subject: commonName=SSA/organizationName=Secret Spy Agency/stateOrProvinceName=Classified/countryName=SA
+| Not valid before: 2023-05-04T18:03:25
+|_Not valid after:  2050-09-19T18:03:25
+|_http-title: Secret Spy Agency | Secret Security Service
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov  8 04:26:03 2023 -- 1 IP address (1 host up) scanned in 19.54 seconds

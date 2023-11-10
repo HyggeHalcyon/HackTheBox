@@ -1,0 +1,23 @@
+{
+    "__meta__": {
+        "about": "HTTPie session file",
+        "help": "https://httpie.io/docs#sessions",
+        "httpie": "2.6.0"
+    },
+    "auth": {
+        "password": "quietLiketheWind22",
+        "type": null,
+        "username": "silentobserver"
+    },
+    "cookies": {
+        "session": {
+            "expires": null,
+            "path": "/",
+            "secure": false,
+            "value": "eyJfZmxhc2hlcyI6W3siIHQiOlsibWVzc2FnZSIsIkludmFsaWQgY3JlZGVudGlhbHMuIl19XX0.Y-I86w.JbELpZIwyATpR58qg1MGJsd6FkA"
+        }
+    },
+    "headers": {
+        "Accept": "application/json, */*;q=0.5"
+    }
+}

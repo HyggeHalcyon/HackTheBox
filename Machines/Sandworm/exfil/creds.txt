@@ -1,0 +1,5 @@
+mysql://atlas:GarlicAndOnionZ42@127.0.0.1:3306/SSA
+mysql://tipnet:4The_Greater_GoodJ4A@localhost:3306/Upstream
+
+::$M1DGu4rD$
+silentobserver::quietLiketheWind22

