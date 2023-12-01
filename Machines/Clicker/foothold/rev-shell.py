@@ -59,6 +59,7 @@ def rev_shell(path):
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("[!] Usage: python3 rev-shell.py <lip> <lport>")
+        exit(1)
 
     global ip, port
     ip = sys.argv[1]

